@@ -1,0 +1,23 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+dist-electron/
+*.tsbuildinfo
+
+# 打包输出
+release/
+release-lite/
+
+# 体积对比临时目录
+_sizecheck/
+
+# WebView2 SDK 缓存
+lightweight/.cache/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
